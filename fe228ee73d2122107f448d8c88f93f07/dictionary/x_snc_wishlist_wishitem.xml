@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f8c2c62b3d2122107f448d8c88f93fb1" label="WishItem" max_length="40" name="x_snc_wishlist_wishitem" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Item" mandatory="true" max_length="40" name="item" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Item" mandatory="true" max_length="40" name="item" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="url" max_length="1024" name="url" type="url"/>
     </element>
 </database>
